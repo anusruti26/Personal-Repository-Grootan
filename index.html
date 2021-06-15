@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login page</title>
+    <style>
+    #seg
+        {
+
+            width: 50%;
+            max-height: fit-content;
+            margin: auto;
+            margin-top: 10%;
+            margin-bottom: 3%;
+            opacity: 0.8;
+            border: 5px solid gray;
+            box-shadow: 10px -10px transparent;
+            padding:5%;
+            font-weight: bolder;
+            color: black;
+          background-color: #FFFFFF;
+        }
+        input
+        {
+            background: transparent;           
+        }
+        body
+        {
+            background-image: url("bgimg.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        label{
+            margin-left: 30%;
+            width : 150px;
+            display : inline-block;
+        }        
+    </style> 
+</head>
+<body>
+    <br><div id="seg">
+    <form action="/" method="POST">
+        <CENTER><h2>LOGIN PAGE</h2></CENTER>
+        <label>USERNAME </label>
+        <input type="text" name="uname" value="" id="uname" required><br /><br>
+        <label>PASSWORD </label>
+        <input type="password" name="pass" value="" id="pass" required><br /><br><br>
+        <center><button><a href="main.html">LOGIN</a></button></center>
+    </form></div>
+</body>
+</html>
